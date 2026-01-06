@@ -1,0 +1,60 @@
+styles.css
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f4;
+  text-align: center;
+}
+
+.hero {
+  background-color: #6c63ff;
+  color: white;
+  padding: 40px 20px;
+}
+
+.hero img {
+  max-width: 100%;
+  width: 150px;
+  border-radius: 50%;
+  margin-top: 15px;
+}
+
+.about {
+  padding: 30px;
+  background-color: white;
+}
+
+.about ul {
+  list-style: none;
+  padding: 0;
+}
+
+.about li {
+  padding: 5px;
+}
+
+.contact {
+  background-color: #333;
+  color: white;
+  padding: 30px;
+}
+
+.contact a {
+  color: #6c63ff;
+  text-decoration: none;
+}
+
+button {
+  padding: 10px 20px;
+  border: none;
+  background-color: #6c63ff;
+  color: white;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+@media (max-width: 600px) {
+  body {
+    background-color: #e0e0ff;
+  }
+}
